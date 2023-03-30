@@ -66,7 +66,7 @@ MIDDLEWARE = [
 #     'django.contrib.auth.backends.ModelBackend',
 # ]
 
-#AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'auth.User'
 
 ROOT_URLCONF = 'sitioindicadores.urls'
 
