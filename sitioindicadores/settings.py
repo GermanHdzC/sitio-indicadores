@@ -62,9 +62,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-]
+# AUTHENTICATION_BACKENDS = [
+#     'django.contrib.auth.backends.ModelBackend',
+# ]
 
 #AUTH_USER_MODEL = 'auth.User'
 
@@ -102,8 +102,8 @@ WSGI_APPLICATION = 'sitioindicadores.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
             # Feel free to alter this value to suit your needs.
-            default='postgresql://postgres:postgres@localhost/postgres',
-            conn_max_age=600   
+            #default='postgresql://postgres:postgres@localhost/postgres',
+            #conn_max_age=600   
          )}
 
 # Password validation
