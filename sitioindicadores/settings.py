@@ -34,8 +34,8 @@ if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 #SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
 #SECURE_PROXY_SSL_HEADER = ('X_FORWARDED_PROTO', 'https')
 
 
@@ -139,8 +139,8 @@ USE_TZ = True
 #CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net/','https://*.127.0.0.1']
 #SESSION_COOKIE_DOMAIN='https://sitio-indicadores.azurewebsites.net/'
 
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
 
 # Static files (CSS, JavaScript, Images)
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
